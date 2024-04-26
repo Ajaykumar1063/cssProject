@@ -1,0 +1,82 @@
+body{
+    background-color: #303030;
+}
+
+.hyperlinkcolor{
+    color: white;
+}
+
+.logo{
+    background-color: #303030;
+    height: 35%;
+    width: 35%;
+    display : flex;
+}
+
+header{
+    margin-top: 2%;
+    display: flexbox;
+    color: white;
+}
+
+.containers {
+    display: flex;
+    width: 100%;
+  }
+
+header *{
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.list{
+    display: flex;
+ justify-content: space-between;
+}
+
+.text {
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+
+.posterimg{
+    border-width: 1;
+    height:50% ;
+    width: 50%;
+}
+
+.button {
+    background-color: #16d99b;
+    border-radius: 5%;
+  border-style: none;
+  padding: 5px 28px;
+  font-family: Arial;
+    
+}
+
+.button2{
+    background-color: #16d99b;
+    border-radius: 5%;
+  border-style: none;
+  padding: 5px 28px;
+  font-family: Arial;
+
+}
+
+
+
+.button2:hover {
+    background-color: #3e8e41
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
